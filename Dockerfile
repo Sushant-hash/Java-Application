@@ -2,7 +2,7 @@
 FROM openjdk:23
 
 # Set the working directory
-WORKDIR /JAVA-APPLICATION
+WORKDIR /Java-Application
 
 # Copy only the necessary source files
 COPY Helloworld.java .
